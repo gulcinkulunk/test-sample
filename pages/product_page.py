@@ -3,7 +3,6 @@ from base.locators import Locators
 
 
 class ProductPage(BasePage):
-    """Product Details Page for the clicked product on Hepsiburada"""
 
     def __init__(self, driver):
         super().__init__(driver)

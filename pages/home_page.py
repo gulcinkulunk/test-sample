@@ -4,12 +4,6 @@ from base.locators import Locators
 
 
 class HomePage(BasePage):
-    TITLE = "Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com"
-    SEARCH_LABEL = "desktopOldAutosuggestTheme-input"
-    KEYWORD = "iphone"
-    PATH = "/home/gulcin/Masaüstü/gulcin/chromedriver_linux64/chromedriver"
-    BASE_URL = "http://www.hepsiburada.com"
-    """Home Page of Hepsiburada"""
 
     def __init__(self, driver):
         super().__init__(driver)
